@@ -9,10 +9,10 @@ function imc(){
     let formulaFemenino
     if(genero.toUpperCase() == "M"){
         formulaMaculino = (1.20 * formulaImc) + (0.23 * edad) - (10.8 * 1) - 5.4
-        alert(`su masa muscular es ${formulaMaculino}`)
+        alert(`su masa muscular es ${formulaMaculino}%`)
     } else if( genero.toUpperCase () == "F"){
        formulaFemenino = (1.20 * formulaImc) + (0.23 * edad) - (10.8 * 2) - 5.4
-         alert(`su masa muscular es ${formulaFemenino}`)
+         alert(`su masa muscular es ${formulaFemenino}%`)
     }else{
         alert("Ingrese un genero valido M/F")
     }
@@ -24,7 +24,7 @@ function pesoIdeal(){
     let estatura = prompt(`Ingrese su estatura en Cm`)
     let edad = prompt(`Ingrese su edad`) 
     let pesoI = estatura - 100 + ((edad/10) * 0.9)
-    alert(`Su peso ideal debe esta en ${pesoI}`)
+    alert(`Su peso ideal debe esta en ${pesoI}KG.`)
 }
 // funcion para consumo de proteinas diarias
 function proteinaDiaria (){
