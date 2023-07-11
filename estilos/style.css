@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bd-navbar{
+    background-color: #A0C49D;
+    
+}
+.div-btn{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    width: 650px;
+}
+.btn-primary{
+    
+    background-color: #B3C890;
+    border-color: #B3C890;
+}
+.btn-primary:hover {
+    color: #8e8e8b;
+    background-color: #DBDFAA;
+    border-color:  #B3C890;
+}
+.form-control{
+    color:  #8e8e8b;
+    border-color: #8e8e8b;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+.form-select{
+    border-color: #8e8e8b;
+}
+hr{
+    background-color: #A0C49D;
+    height: 5px;
+}
+
+
+
