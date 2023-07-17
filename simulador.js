@@ -237,7 +237,7 @@ function iniciarFormulario(){
  
  }
  function cartelH3(){
-  alertaCartel.innerHTML = ``
+  alertaCartel.innerHTML = ""
   let nuevoCartel = document.createElement("h3")
   nuevoCartel.innerHTML = `<h3 id="h3Cartel">No hay ejercicios Disponibles</h3>`
   alertaCartel.appendChild(nuevoCartel)
@@ -260,6 +260,8 @@ vaciar.addEventListener("click", () => {
  }
 
 rutinaBtn.addEventListener("click", () => {
+  ejerciciosDiv.innerHTML=``
+  alertaCartel.innerHTML = ``
     console.log(showRutina.value)
     switch(showRutina.value){
        case "1":
