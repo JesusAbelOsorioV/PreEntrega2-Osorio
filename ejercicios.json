@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "nombreEjer": "pecho banco plano",
+        "repet": 15,
+        "tipo": 1,
+        "dia": "martes"
+    },
+    {
+        "id": 2,
+        "nombreEjer": "pecho banco plano",
+        "repet": 12,
+        "tipo": 1,
+        "dia": "martes"
+    },
+    {
+        "id": 3,
+        "nombreEjer": "pull up",
+        "repet": 8,
+        "tipo": 2,
+        "dia": "miercoles"
+    },
+    {
+        "id": 4,
+        "nombreEjer": "caminadora",
+        "repet": 15,
+        "tipo": 3,
+        "dia": "viernes"
+    },
+    {
+        "id": 5,
+        "nombreEjer": "sentadilla sumo",
+        "repet": 12,
+        "tipo": 2,
+        "dia": "lunes"
+    },
+    {
+        "id": 6,
+        "nombreEjer": "cuadriceps",
+        "repet": 10,
+        "tipo": 2,
+        "dia": "lunes"
+    },
+    {
+        "id": 7,
+        "nombreEjer": "remo con polea",
+        "repet": 10,
+        "tipo": 2,
+        "dia": "miercoles"
+    },
+    {
+        "id": 8,
+        "nombreEjer": "vuelos laterales",
+        "repet": 12,
+        "tipo": 2,
+        "dia": "jueves"
+    },
+    {
+        "id": 9,
+        "nombreEjer": "press militar",
+        "repet": 12,
+        "tipo": 2,
+        "dia": "jueves"
+    },
+    {
+        "id": 10,
+        "nombreEjer": "stocada dinamica",
+        "repet": 15,
+        "tipo": 3,
+        "dia": "viernes"
+    }
+]
