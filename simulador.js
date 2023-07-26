@@ -138,6 +138,7 @@ let showRCreada = document.getElementById("showRCreada")
 let vaciar = document.getElementById("vaciar")
 let cartelDeCarga = document.getElementById("cartelDeCarga")
 let loaderSpin = document.getElementById("loaderSpin")
+let carterlSelct = document.getElementById("carterlSelct")
 
 //funcion para mostrar los ejercicios
 function mostrarEjer(rutina) {
@@ -269,6 +270,13 @@ function iniciarFormulario() {
 
 
 }
+function cartelSel() {
+  carterlSelct.innerHTML = ""
+  let nuevoCartelSelct = document.createElement("h3")
+  nuevoCartelSelct.innerHTML = `<h3 id="carterlSelct">Seleccione una opcion</h3>`
+  carterlSelct.appendChild(nuevoCartelSelct)
+
+}
 function cartelH3() {
   alertaCartel.innerHTML = ""
   let nuevoCartel = document.createElement("h3")
@@ -346,6 +354,7 @@ ocultarFormulario.onclick = () => {
 rutinaBtn.addEventListener("click", () => {
   ejerciciosDiv.innerHTML = ``
   alertaCartel.innerHTML = ``
+  carterlSelct.innerHTML = ``
   console.log(showRutina.value)
   switch (showRutina.value) {
     case "1":
@@ -361,6 +370,7 @@ rutinaBtn.addEventListener("click", () => {
       planEntre()
       break
     default:
+      cartelSel()
       console.log("no selecciono nada")
       break
   }
@@ -370,7 +380,6 @@ rutinaBtn.addEventListener("click", () => {
 reiniciarBtn.addEventListener("click", () => {
   ejerciciosDiv.innerHTML = ``
   alertaCartel.innerHTML = ``
-  loaderTexto.innerText = ``
   loaderSpin.innerHTML = ``
 
 })
